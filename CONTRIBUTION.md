@@ -1,5 +1,3 @@
-### `CONTRIBUTION.md`
-
 # Contribution Guidelines
 
 We’re excited that you’re interested in contributing to the **JKUAT CU App**! To maintain a smooth contribution process, please follow these guidelines.
