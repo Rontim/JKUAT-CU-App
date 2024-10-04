@@ -5,6 +5,7 @@ The **JKUAT CU App** is a cross-platform mobile application developed for the Ch
 ---
 
 ## Table of Contents
+
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Installation](#installation)
@@ -38,27 +39,32 @@ Here’s a sneak peek of the JKUAT CU App:
 ## Installation
 
 ### Prerequisites
+
 - [Flutter](https://flutter.dev/docs/get-started/install)
 - [Git](https://git-scm.com)
 
 ### Steps
 
 1. Clone the repository:
+
     ```bash
     git clone https://github.com/YourUsername/JKUAT-CU-App.git
     ```
 
 2. Navigate into the project directory:
+
     ```bash
     cd JKUAT-CU-App
     ```
 
 3. Install dependencies:
+
     ```bash
     flutter pub get
     ```
 
 4. Run the app on an emulator or physical device:
+
     ```bash
     flutter run
     ```
@@ -68,6 +74,7 @@ Here’s a sneak peek of the JKUAT CU App:
 ## Usage
 
 Once installed and running, users can:
+
 - **View Daily Verses**: Receive inspiring Bible verses every day.
 - **Browse Sermons**: Access the sermon archive for past teachings.
 - **Participate in Events**: Get updated about upcoming CU events and participate in them.
@@ -99,4 +106,3 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 ---
 
 Thank you for being part of the **JKUAT CU App** journey! ✨🙏
-
