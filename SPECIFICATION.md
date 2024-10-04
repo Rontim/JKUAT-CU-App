@@ -259,5 +259,3 @@ lib/
 ### 8. Conclusion
 
 By following the **Layer-Based Architecture** with **GetX**, we ensure that the JKUAT CU App is clean, maintainable, and scalable. Each layer is responsible for a distinct concern, promoting good development practices and ensuring the app can grow and evolve over time.
-
-Let me know if you need additional clarifications or modifications!
