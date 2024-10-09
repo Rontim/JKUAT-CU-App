@@ -4,6 +4,8 @@ class JTexts {
   // General
   static const String appName = "JKUAT CU";
   static const String email = "Email";
+  static const String emailHint = "Please enter your email address";
+  static const String passwordHint = "Please enter your password";
   static const String password = "Password";
   static const String confirmPassword = "Confirm Password";
   static const String orContinueWith = "Or continue with";
