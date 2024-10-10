@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:jkuat_cu_app/core/constants/colors.dart';
+import 'package:jkuat_cu_app/core/theme/jthemes/text_theme.dart';
 
 class JAppTheme {
   JAppTheme._();
@@ -10,6 +11,7 @@ class JAppTheme {
     primaryColor: JColors.primary,
     hintColor: JColors.secondary,
     brightness: Brightness.light,
+    textTheme: JTextTheme.lightTextTheme,
   );
 
   static ThemeData darkTheme = ThemeData(
@@ -18,5 +20,6 @@ class JAppTheme {
     primaryColor: JColors.primary,
     hintColor: JColors.secondary,
     brightness: Brightness.light,
+    textTheme: JTextTheme.darkTextTheme,
   );
 }
