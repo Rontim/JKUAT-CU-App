@@ -18,12 +18,14 @@ class JTexts {
   /// Login Screen *
   static const String loginTitle = "Login Here";
   static const String loginSubTitle = "Welcome back, you've been missed!";
-  static const String forgotPassword = "Forgot Password?";
+  static const String forgotPassword = "Forgot your password?";
   static const String signIn = "Sign In";
+  static const String createaccount = "Create an account";
 
   /// Register Screen *
   static const String registerTitle = "Register Here";
-  static const String registerSubTitle = "Join us today and be part of the family!";
+  static const String registerSubTitle =
+      "Join us today and be part of the family!";
   static const String signUp = "Sign Up";
   static const String alreadyHaveAnAccount = "Already have an account?";
 

@@ -6,31 +6,31 @@ class JTextTheme {
 
   static final TextTheme lightTextTheme = TextTheme(
     headlineLarge: const TextStyle().copyWith(
-        fontSize: 32.0, fontWeight: FontWeight.bold, color: JColors.black),
+        fontSize: 32.0, fontWeight: FontWeight.bold, color: JColors.primary),
     headlineMedium: const TextStyle().copyWith(
-        fontSize: 24.0, fontWeight: FontWeight.w600, color: JColors.black),
+        fontSize: 24.0, fontWeight: FontWeight.w600, color: JColors.primary),
     headlineSmall: const TextStyle().copyWith(
-        fontSize: 18.0, fontWeight: FontWeight.w600, color: JColors.black),
+        fontSize: 18.0, fontWeight: FontWeight.w600, color: JColors.primary),
     titleLarge: const TextStyle().copyWith(
-        fontSize: 16.0, fontWeight: FontWeight.w600, color: JColors.black),
+        fontSize: 16.0, fontWeight: FontWeight.w600, color: JColors.primary),
     titleMedium: const TextStyle().copyWith(
-        fontSize: 16.0, fontWeight: FontWeight.w500, color: JColors.black),
+        fontSize: 16.0, fontWeight: FontWeight.w500, color: JColors.primary),
     titleSmall: const TextStyle().copyWith(
-        fontSize: 16.0, fontWeight: FontWeight.w400, color: JColors.black),
+        fontSize: 16.0, fontWeight: FontWeight.w400, color: JColors.primary),
     bodyLarge: const TextStyle().copyWith(
-        fontSize: 14.0, fontWeight: FontWeight.w500, color: JColors.black),
+        fontSize: 14.0, fontWeight: FontWeight.w500, color: JColors.primary),
     bodyMedium: const TextStyle().copyWith(
-        fontSize: 14.0, fontWeight: FontWeight.normal, color: JColors.black),
+        fontSize: 14.0, fontWeight: FontWeight.normal, color: JColors.primary),
     bodySmall: const TextStyle().copyWith(
         fontSize: 14.0,
         fontWeight: FontWeight.w500,
-        color: JColors.black.withOpacity(0.5)),
+        color: JColors.primary.withOpacity(0.5)),
     labelLarge: const TextStyle().copyWith(
-        fontSize: 12.0, fontWeight: FontWeight.normal, color: JColors.black),
+        fontSize: 12.0, fontWeight: FontWeight.normal, color: JColors.primary),
     labelSmall: const TextStyle().copyWith(
         fontSize: 12.0,
         fontWeight: FontWeight.normal,
-        color: JColors.black.withOpacity(0.5)),
+        color: JColors.primary.withOpacity(0.5)),
   );
 
   static final TextTheme darkTextTheme = TextTheme(

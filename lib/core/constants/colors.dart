@@ -13,8 +13,15 @@ class JColors {
   static const Color grey = Color(0xFFF1F4FF);
   static const Color grey2 = Color(0xFFD9D9D9);
   static const Color grey3 = Color(0xFFBDBDBD);
+  static const Color grey4 = Color(0xFF9E9E9E);
+  static const Color grey5 = Color(0xFF757575);
+  static const Color grey6 = Color(0xFF616161);
+  static const Color grey7 = Color(0xFF424242);
+  static const Color grey8 = Color(0xFF212121);
 
   static const Color error = Color(0xFFD32F2F);
   static const Color success = Color(0xFF388E3C);
   static const Color warning = Color(0xFFD32F2F);
+
+  static const Color buttonDisabled = Color(0xFFE0E0E0);
 }
