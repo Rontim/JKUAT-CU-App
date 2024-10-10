@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import "package:flutter_social_button/flutter_social_button.dart";
 import "package:jkuat_cu_app/core/constants/sizes.dart";
 import "package:jkuat_cu_app/core/constants/strings.dart";
-import "package:jkuat_cu_app/presentation/widgets/socials_icons.dart";
-import "package:jkuat_cu_app/presentation/widgets/text_field.dart";
+import "package:jkuat_cu_app/presentation/pages/login/widgets/socials_icons.dart";
+import "package:jkuat_cu_app/presentation/pages/login/widgets/text_field.dart";
 
 class LoginPage extends StatelessWidget {
   final TextEditingController emailController = TextEditingController();

@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:jkuat_cu_app/core/theme/theme.dart';
-import 'package:jkuat_cu_app/presentation/pages/login_page.dart';
+import 'package:jkuat_cu_app/presentation/pages/login/login_page.dart';
 // import 'package:jkuat_cu_app/presentation/pages/welcome_screen.dart';
 
 class App extends StatelessWidget {
