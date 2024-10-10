@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:jkuat_cu_app/core/constants/colors.dart';
 import 'package:jkuat_cu_app/core/theme/jthemes/elevated_button_theme.dart';
+import 'package:jkuat_cu_app/core/theme/jthemes/text_field_theme.dart';
 import 'package:jkuat_cu_app/core/theme/jthemes/text_theme.dart';
 
 class JAppTheme {
@@ -14,6 +15,7 @@ class JAppTheme {
     brightness: Brightness.light,
     textTheme: JTextTheme.lightTextTheme,
     elevatedButtonTheme: JElevatedButtonTheme.lightElevatedButtonTheme,
+    inputDecorationTheme: JTextFormFieldTheme.lightInputDecorationTheme,
   );
 
   static ThemeData darkTheme = ThemeData(
@@ -24,5 +26,6 @@ class JAppTheme {
     brightness: Brightness.light,
     textTheme: JTextTheme.darkTextTheme,
     elevatedButtonTheme: JElevatedButtonTheme.darkElevatedButtonTheme,
+    inputDecorationTheme: JTextFormFieldTheme.darkInputDecorationTheme,
   );
 }

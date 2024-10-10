@@ -15,6 +15,10 @@ class JSizes {
   static const double tlg = 22.0;
   static const double txl = 30.0;
 
+  static const double fontSizeSm = 14.0;
+  static const double fontSizeMd = 16.0;
+  static const double fontSizeLg = 18.0;
+
   // Icon Sizes
   static const double ism = 18.0;
   static const double imd = 24.0;
@@ -48,4 +52,8 @@ class JSizes {
   static const double buttonRadius = 12.0;
   static const double buttonWidth = 120.0;
   static const double buttonElevation = 4.0;
+
+  // Input field
+  static const double inputFieldRadius = 12.0;
+  static const double spaceBtwInputFields = 16.0;
 }

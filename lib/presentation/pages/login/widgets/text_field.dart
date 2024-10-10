@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:jkuat_cu_app/core/constants/colors.dart';
-import 'package:jkuat_cu_app/core/constants/sizes.dart';
 
 class CustomTextField extends StatelessWidget {
   final String hintText;
@@ -24,12 +22,6 @@ class CustomTextField extends StatelessWidget {
       decoration: InputDecoration(
         prefixIcon: Icon(prefixIcon),
         hintText: hintText,
-        hintStyle: TextStyle(
-          color: JColors.grey,
-        ),
-        border: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(JSizes.brmd), // Border radius
-        ),
       ),
     );
   }

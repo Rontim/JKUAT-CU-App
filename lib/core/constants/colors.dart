@@ -24,4 +24,7 @@ class JColors {
   static const Color warning = Color(0xFFD32F2F);
 
   static const Color buttonDisabled = Color(0xFFE0E0E0);
+
+  static const Color light = Color(0xFFE0E0E0);
+  static const Color dark = Color(0xFF424242);
 }
