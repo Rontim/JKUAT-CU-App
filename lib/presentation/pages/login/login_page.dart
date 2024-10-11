@@ -30,7 +30,10 @@ class LoginPage extends StatelessWidget {
 
               /* Login Form */
               LoginPageForm(),
+
+              /* Login Social Buttons */
               Text(JTexts.orContinueWith),
+              SizedBox(height: JSizes.spaceBtwItems),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
