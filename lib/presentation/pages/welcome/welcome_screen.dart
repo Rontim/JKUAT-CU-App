@@ -1,13 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:jkuat_cu_app/core/constants/colors.dart';
 import 'package:jkuat_cu_app/core/constants/images.dart';
 import 'package:jkuat_cu_app/core/constants/strings.dart';
+import 'package:jkuat_cu_app/presentation/controllers/welcome_controller.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
+    final WelcomeController controller = Get.find();
     return Scaffold(
         body: Stack(
       children: [
