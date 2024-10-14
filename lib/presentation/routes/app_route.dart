@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:jkuat_cu_app/presentation/bindings/bottom_binding.dart';
 import 'package:jkuat_cu_app/presentation/bindings/welcome_binding.dart';
+import 'package:jkuat_cu_app/presentation/pages/bottom_navigation.dart';
 import 'package:jkuat_cu_app/presentation/pages/home/home_page.dart';
 import 'package:jkuat_cu_app/presentation/pages/login/login_page.dart';
 import 'package:jkuat_cu_app/presentation/pages/welcome/welcome_screen.dart';
 
 class AppRoute {
   static const String welcome = '/';
+  static const String bottomNav = '/bottom_nav';
   static const String login = '/login';
   static const String signup = '/register';
   static const String home = '/home';
@@ -18,6 +21,12 @@ class AppRoute {
       name: welcome,
       page: () => WelcomeScreen(),
       binding: WelcomeBinding(),
+    ),
+    GetPage(
+      name: bottomNav,
+      page: () => BottomNavigation(),
+      binding: BottomNavigationBinding(),
+      // Add binding for bottomNav page later
     ),
     GetPage(
       name: login,
