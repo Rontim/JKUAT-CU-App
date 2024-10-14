@@ -9,7 +9,6 @@ class WelcomeController extends GetxController {
   void onReady() {
     super.onReady();
     // For testing we will make it that its not the user's first time
-    _localStorageService.saveData('first_time', false);
     _navigateUser();
   }
 
@@ -33,13 +32,13 @@ class WelcomeController extends GetxController {
 
   // Check if it's the user's first time using the app
   bool isFirstTime() {
-    return !_localStorageService.hasData('first_time');
+    return _localStorageService.hasData('first_time');
   }
 
   // Check if the user is authenticated using SecureStorage
   // For testing purposes, we will return true after 2 seconds
   Future<bool> isAuthenticated() async {
     await Future.delayed(const Duration(seconds: 2));
-    return true;
+    return false;
   }
 }

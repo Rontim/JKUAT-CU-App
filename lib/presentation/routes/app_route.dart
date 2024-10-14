@@ -5,6 +5,7 @@ import 'package:jkuat_cu_app/presentation/bindings/welcome_binding.dart';
 import 'package:jkuat_cu_app/presentation/pages/bottom_navigation.dart';
 import 'package:jkuat_cu_app/presentation/pages/home/home_page.dart';
 import 'package:jkuat_cu_app/presentation/pages/login/login_page.dart';
+import 'package:jkuat_cu_app/presentation/pages/signup/sign_up_page.dart';
 import 'package:jkuat_cu_app/presentation/pages/welcome/welcome_screen.dart';
 
 class AppRoute {
@@ -34,7 +35,7 @@ class AppRoute {
     ),
     GetPage(
       name: signup,
-      page: () => Container(),
+      page: () => SignUpPage(),
       // Add binding for signup page later
     ),
     GetPage(
