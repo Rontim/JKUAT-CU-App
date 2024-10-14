@@ -23,7 +23,7 @@ class WelcomeController extends GetxController {
       bool authenticated = await isAuthenticated();
       if (authenticated) {
         // Navigate to Home (Bottom Navigation) if authenticated
-        Get.offAllNamed(AppRoute.home);
+        Get.offAllNamed(AppRoute.bottomNav);
       } else {
         // Navigate to Login page if not authenticated
         Get.offAllNamed(AppRoute.login);
