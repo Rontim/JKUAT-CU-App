@@ -25,7 +25,7 @@ class WelcomeController extends GetxController {
         Get.offAllNamed(AppRoute.bottomNav);
       } else {
         // Navigate to Login page if not authenticated
-        Get.offAllNamed(AppRoute.login);
+        Get.offAllNamed(AppRoute.home);
       }
     }
   }
